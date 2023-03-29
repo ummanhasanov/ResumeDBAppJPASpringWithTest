@@ -22,7 +22,7 @@ import java.util.List;
  * @author Umman Hasan Data Access Object
  */
 @Repository
-@Qualifier("userDao1")
+@Qualifier("userDao2")
 public class UserDaoImpl2 implements UserRepositoryCustom {
 
     @PersistenceContext
